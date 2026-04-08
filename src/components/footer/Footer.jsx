@@ -19,10 +19,10 @@ function Footer() {
       <div className="footerbody">
         <h1>Quick Links</h1>
         <div className="footbody">
-        <p><a href="#">Home</a></p>
-        <p><a href="#">About Us</a></p>
-        <p><a href="#">Booking Form</a></p>
-        <p><a href="#">Contact Us</a></p>
+        <p><a href="/">Home</a></p>
+        <p><a href="/about">About Us</a></p>
+        <p><a href="/booking">Booking Form</a></p>
+        <p><a href="/contact">Contact Us</a></p>
         </div>
        
       </div>
@@ -31,8 +31,8 @@ function Footer() {
       <div className="footerbody">
         <h1>Legal Information</h1>
         <div className="footbody">
-        <p><a href="#">Privacy Policy</a></p>
-        <p><a href="#">Terms of service</a></p>
+        <p><a href="/privacy">Privacy Policy</a></p>
+        <p><a href="/term">Terms of service</a></p>
         </div>
        
       </div>

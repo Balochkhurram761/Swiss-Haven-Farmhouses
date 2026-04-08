@@ -37,7 +37,7 @@ function Navbar() {
       <ul className='link' >
         <li><Link to="/" className={activecolor==='Home' ? 'nav-link active': 'nav-link'} onClick={()=>handleactive('Home')} >Home</Link></li>
         <li><Link to="/bookingform" className={activecolor==='Booking' ? 'nav-link active':'nav-link'} onClick={()=>handleactive('Booking')} >Booking Form</Link></li>
-        <li><a href="#" className={activecolor==='Amenities' ? 'nav-link active':'nav-link'} onClick={()=>handleactive('Booking')} >Amenities</a></li>
+        <li><a href="/contact" className={activecolor==='Amenities' ? 'nav-link active':'nav-link'} onClick={()=>handleactive('Booking')} >Amenities</a></li>
         <li><Link to="https://wa.me/03054370219" target='_blank' className='nav-link '  >Contact</Link></li>
       </ul>
     </div>
