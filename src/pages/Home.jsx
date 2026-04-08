@@ -1,5 +1,4 @@
 import React from 'react'
-import { PiFlagBanner } from 'react-icons/pi'
 import Banner1 from '../components/banner1/Banner1'
 import Banner2 from '../components/banner2/Banner2'
 import Banner3 from '../components/banner3/Banner3'
