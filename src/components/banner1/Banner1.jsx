@@ -4,8 +4,8 @@ function Banner1() {
   return (
     <div className="banner1"> 
     <div className="bannerimage">
-      <img className='largeimage' src="/assestimage/Banner1Image/main-bg.png" alt="" />
-      <img className='smallimage' src="/assestimage/Banner1Image/main-mob-bg.png" alt="" />
+      <img className='largeimage' loading='lazy' src="/assestimage/Banner1Image/main-bg.png" alt="" />
+      <img className='smallimage' loading='lazy'  src="/assestimage/Banner1Image/main-mob-bg.png" alt="" />
     </div>
      <div className="bannerbody">
       <h1>Luxury Redefined in swiss haven <span> Farmhouses </span> </h1>

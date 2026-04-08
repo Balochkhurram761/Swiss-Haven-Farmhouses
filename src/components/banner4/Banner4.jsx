@@ -4,22 +4,22 @@ function Banner4() {
   return (
     <div className="banner4">
       <div className="img">
-        <img src="/assestimage/banner4image/img-gallery-2.jpg" alt="" />
+        <img src="/assestimage/banner4image/img-gallery-2.jpg" loading='lazy' alt="" />
         </div>
         <div className="img">
-        <img src="/assestimage/banner4image/img-gallery-3.jpg" alt="" />
+        <img src="/assestimage/banner4image/img-gallery-3.jpg" loading='lazy' alt="" />
         </div>
         <div className="img">
-        <img src="/assestimage/banner4image/img-gallery-4.jpg" alt="" />
+        <img src="/assestimage/banner4image/img-gallery-4.jpg" loading='lazy'  alt="" />
         </div>
         <div className="img">
-        <img src="/assestimage/banner4image/img-gallery-5.jpg" alt="" />
+        <img src="/assestimage/banner4image/img-gallery-5.jpg" loading='lazy'  alt="" />
         </div>
         <div className="img">
-        <img src="/assestimage/banner4image/img-gallery-6.jpg" alt="" />
+        <img src="/assestimage/banner4image/img-gallery-6.jpg" loading='lazy' alt="" />
         </div>
         <div className="img">
-        <img src="/assestimage/banner4image/img-gallery-7.jpg" alt="" />
+        <img src="/assestimage/banner4image/img-gallery-7.jpg" loading='lazy' alt="" />
         </div>
       
     </div>

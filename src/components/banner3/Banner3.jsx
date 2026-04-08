@@ -4,8 +4,8 @@ function Banner3() {
   return (
    <div className="section2">
     <div className="img">
-      <img  className='largeimage' src="/assestimage/Banner3Image/third-section-bg.jpg" alt="" />
-      <img  className='smallimage' src="https://www.swisshavenfarmhouses.com/images/images/third-section-mob-bg.jpg" alt="" />
+      <img  className='largeimage' loading='lazy' src="/assestimage/Banner3Image/third-section-bg.jpg" alt="" />
+      <img  className='smallimage' loading='lazy' src="https://www.swisshavenfarmhouses.com/images/images/third-section-mob-bg.jpg" alt="" />
     </div>
      <div className="bodybanner">
      <h1>Breathe New Life into your routine.

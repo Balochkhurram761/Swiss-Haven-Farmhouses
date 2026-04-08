@@ -30,7 +30,9 @@ function Navbar() {
     <div className="logo">
      <Link to={"/"} onClick={handleclose} > <img src="/assestimage/NavbarImage/fullLogo.png" alt="" /></Link>
     </div>
-    {menubar ? (<NavbarMobile  handleclose={handleclose} handleactive={handleactive} activecolor={activecolor} />):(
+    <div>
+    <NavbarMobile  handleclose={handleclose} handleactive={handleactive} activecolor={activecolor} menubar={menubar}   />
+    </div>
       <>
     <div className="links">
       <ul className='link' >
@@ -41,7 +43,7 @@ function Navbar() {
       </ul>
     </div>
      </>
-    )}
+    
     <div className="button">
     <FaPhoneAlt />
       <p><Link to="https://wa.me/03054370219" >+92 315 6664 411   </Link>  </p>

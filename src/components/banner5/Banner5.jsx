@@ -18,7 +18,7 @@ function Banner5() {
         <div className="cards">
           <div className="card">
            <div className="imagebanner">
-            <img src="/assestimage/banner5image/outdoor.jpg" alt="" />
+            <img src="/assestimage/banner5image/outdoor.jpg" loading='lazy' alt="" />
             <h2>Playgrounds & Parks</h2>
            </div>
            <div className="cardbody">

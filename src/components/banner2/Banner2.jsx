@@ -7,7 +7,7 @@ function Banner2() {
    <div className="banner2">
     <div className="leftbanner">
       <div className="logo">
-      <img src="/assestimage/Banner2Image/black-logo.png" alt="" />
+      <img src="/assestimage/Banner2Image/black-logo.png" loading='lazy' alt="" />
       </div>
       <p>Welcome to Swiss Haven Farmhouses, an
 exclusive project by <span> Al-Nafey Group.</span>
@@ -26,7 +26,7 @@ convenience.</p>
     </div>
     <div className="rightbanner">
      <div className="imagebanner">
-      <img src="/assestimage/Banner2Image/about-img-2.png" alt="" />
+      <img src="/assestimage/Banner2Image/about-img-2.png" loading='lazy' alt="" />
      </div>
     </div>
    </div>
